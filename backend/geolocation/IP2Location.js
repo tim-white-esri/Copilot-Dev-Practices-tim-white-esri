@@ -28,6 +28,13 @@ module.exports.ipLoc = function (IP) {
             //START:TODO - GeoLocation Logic to Implement
 
             
+            //find the geolocation using rthe ip input from the local file, and return the ip and city
+            returnObj = {
+                ip: IP,
+                city: result.city
+            };
+            //END:TODO
+        }
             //END:TODO
         }        
 
